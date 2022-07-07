@@ -5,7 +5,7 @@ import {
   useAddToCart,
   useCartCount,
   StoreContextProvider,
-} from './store-ctx-selector';
+} from '../../store/store-ctx-selector';
 
 const LoginSection = () => {
   const login = useLogin();

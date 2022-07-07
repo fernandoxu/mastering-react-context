@@ -4,7 +4,7 @@ import {
   useUser,
   useAddToCart,
   useCartCount,
-} from './store-zustand';
+} from '../../store/store-zustand';
 
 const LoginSection = () => {
   const login = useLogin();
